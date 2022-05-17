@@ -1,4 +1,23 @@
-h1 {
-  color: rgb(101, 230, 62);
+.container {
+  background-color: lightgray;
+  min-width: 100%;
+  min-height: 800px;
+  padding: 15px 10px 15px 10px;
 }
 
+h1 {
+  display: flex;
+
+  color: rgb(101, 230, 62);
+  background-color: black;
+  padding: 10px 0 15px 10px;
+
+}
+
+.login-click-btn {
+  color: green;
+}
+
+.signup-click-btn {
+  color: blue;
+}

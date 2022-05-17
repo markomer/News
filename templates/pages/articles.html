@@ -1,0 +1,13 @@
+{% extends 'base.html' %} 
+{% load static %} 
+
+{% block title %}Articles{% endblock title %} 
+
+{% block content %}
+  <h1 class="articles-title">Articles Page</h1>
+  <p class="front-page-click-btn">Click <a href="{% url 'front' %}" class="btn btn-success">here</a> for Front Page News.</p>
+  <p class="sports-page-click-btn">Click <a href="{% url 'sports' %}" class="btn btn-primary">here</a> for Sports News.</p>
+  <p class="society-page-click-btn">Click <a href="{% url 'society' %}" class="btn btn-primary">here</a> for Society Connections.</p>
+  <p class="business-page-click-btn">Click <a href="{% url 'business' %}" class="btn btn-primary">here</a> for Business Insights and News.</p>
+{% endblock content %} 
+

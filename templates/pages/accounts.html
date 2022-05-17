@@ -1,10 +1,12 @@
 {% extends 'base.html' %} 
 {% load static %}
 
-{% block title %}About Us{% endblock title %} 
+{% block title %}Accounts{% endblock title %} 
 
 {% block content %} 
   <h1 class="accounts-title">Accounts Page</h1>
+  <p class="login-click-btn">Click <a href="{% url 'login' %}" class="btn btn-success">here</a> to login.</p>
+  <p class="signup-click-btn">Click <a href="{% url 'signup' %}" class="btn btn-primary">here</a> to sign up.</p>
 
-  <h3>Sign Up or Login Here</h3>
+
 {% endblock content %} 

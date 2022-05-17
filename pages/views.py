@@ -10,3 +10,6 @@ class AboutPageView(TemplateView):
 
 class AccountsPageView(TemplateView):
   template_name = 'pages/accounts.html'
+
+class ArticlesPageView(TemplateView):
+  template_name = 'pages/articles.html'
